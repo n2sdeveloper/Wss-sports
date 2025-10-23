@@ -1,0 +1,18 @@
+.office-card {
+        background: #111; /* Black background */
+        border-radius: 15px;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        color: #040404;
+    }
+    .office-card .icon {
+        color: rgb(188, 57, 57);
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .office-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgb(186, 64, 64);
+    }
+    .office-card:hover .icon {
+        color: #fff;
+        transform: scale(1.2);
+    }

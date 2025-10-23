@@ -1,0 +1,34 @@
+/* First and Last Button - Standard Red */
+.btn-wss-primary, .btn-wss-tertiary {
+    background-color: #dc3545; /* Standard Red */
+    color: #fff;
+    border: none;
+}
+
+.btn-wss-primary:hover, .btn-wss-tertiary:hover {
+    background-color: #b02a37; /* Darker Red on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+/* Center Button - Darker Red */
+.btn-wss-secondary {
+    background-color: #a71d2a; /* Slightly darker red */
+    color: #fff;
+    border: none;
+}
+
+.btn-wss-secondary:hover {
+    background-color: #8c1923; /* Even darker on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+/* Responsive spacing and sizing */
+.hero-buttons .btn {
+    min-width: 180px;
+    font-size: 1.1rem;
+    margin-bottom: 10px; /* spacing for mobile */
+}

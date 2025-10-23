@@ -1,0 +1,29 @@
+.card.h-100 {
+    min-height: 520px; /* Uniform card height */
+    display: flex;
+    flex-direction: column;
+}
+.card-img-wrapper {
+    overflow: hidden;
+    padding: 15px; /* Padding around the image */
+    background: #fff;
+}
+.card-img-top {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul li i {
+    min-width: 20px;
+}

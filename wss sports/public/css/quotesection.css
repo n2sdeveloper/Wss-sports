@@ -1,0 +1,61 @@
+/* =======================
+   Quote Section - WSS Sports
+======================= */
+.quote-section {
+    background-color: #f8f9fa;       /* Light gray background */
+    position: relative;
+    z-index: 1;
+    padding: 4rem 1rem;              /* Responsive padding */
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Quote Icon (Optional) */
+.quote-icon {
+    font-size: 3rem;
+    color: #dc3545;                  /* Red theme */
+    margin-bottom: 1rem;
+}
+
+/* Blockquote Text */
+.quote-section .blockquote {
+    font-size: clamp(1.2rem, 2vw, 1.8rem); /* Responsive font size */
+    font-style: italic;
+    position: relative;
+    line-height: 1.8;
+    max-width: 800px;                /* Prevent very long lines */
+    margin: 0 auto 1rem auto;
+    color: #212529;                  /* Dark text for readability */
+}
+
+/* Opening Quote Symbol */
+.quote-section .blockquote::before {
+    content: "“";
+    font-size: 4rem;
+    color: #dc3545;                  /* Red theme accent */
+    position: absolute;
+    left: -40px;
+    top: -20px;
+    font-family: Georgia, serif;
+}
+
+/* Author / Footer */
+.quote-section .blockquote-footer {
+    font-size: 1rem;
+    font-style: normal;
+    color: #6c757d;
+    margin-top: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .quote-section .blockquote::before {
+        font-size: 3rem;
+        left: -25px;
+        top: -15px;
+    }
+
+    .quote-section .blockquote {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,12 @@
+.logo-wrapper {
+    height: 180px; /* bigger logo area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.logo-wrapper img {
+    max-height: 160px; /* bigger logo */
+    max-width: 100%;
+    object-fit: contain;
+}
